@@ -10,7 +10,7 @@ with open('feed.yaml', 'r') as file:
 
 channel_element = xml_tree.SubElement(rss_element, 'channel')
 
-xml_tree.SubElement(channel_element, 'title').text = yaml_data
+xml_tree.SubElement(channel_element, 'title').text = yaml_data['title']
 
 output_tree = xml_tree.ElementTree(rss_element)
 output_tree.write('podcast.xml', encoding='UTF-8', xml_declaration=True)
