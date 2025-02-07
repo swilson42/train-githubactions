@@ -19,4 +19,3 @@ You have a chance to hear from people who are not just talking about, but buildi
 - [Episode Newsletter](https://go.raybo.org/tfit-newsletter)
 
 
-
